@@ -2512,6 +2512,16 @@ input, select, textarea {
 
 /* My changes */
 
+/* Main page */
+
+#pastor {
+	margin-top: 10%;
+}
+
+#pastor img {
+	margin-top: 5%;
+}
+
 /* Ministries page */
 
 .image{
