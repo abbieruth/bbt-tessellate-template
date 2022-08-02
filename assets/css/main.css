@@ -382,6 +382,7 @@ input, select, textarea {
 
 		.row > .col-6 {
 			width: 50%;
+			position: relative;
 		}
 
 		.row > .off-6 {
@@ -2508,3 +2509,42 @@ input, select, textarea {
 				}
 
 	}
+
+/* My changes */
+
+.image{
+	position: relative;
+}
+
+.image h3 {
+	position: absolute;
+	top: 40%;
+	bottom: 40%;
+	margin: 0 35%;
+}
+
+.image div {
+	position: absolute;
+	top: 20%;
+	bottom: 20%;
+	/* background: black; */
+	color: white;
+	/* opacity: 0.75; */
+	margin: 5%;
+	/* padding: 5%; */
+	visibility: hidden;
+	-webkit-transition: visibility 0s, opacity 0.5s linear;
+	transition: visibility 0s, opacity 0.5s linear;
+}
+
+.image:hover{
+	cursor: pointer;
+}
+
+.image:hover div {
+	visibility: visible;
+}
+
+.image:hover h3 {
+	visibility: hidden;
+}
