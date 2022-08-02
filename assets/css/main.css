@@ -2512,6 +2512,8 @@ input, select, textarea {
 
 /* My changes */
 
+/* Ministries page */
+
 .image{
 	position: relative;
 }
@@ -2547,4 +2549,35 @@ input, select, textarea {
 
 .image:hover h3 {
 	visibility: hidden;
+}
+
+/* Missionaries page */
+
+.missionary {
+	margin: 5% 0 10% 0;
+}
+
+.missionary #image {
+	display: inline-block;
+}
+
+.missionary #about {
+	display: inline-block;
+	vertical-align: top;
+	width: 60%;
+	margin-left: 5%;
+}
+
+.missionary #letterlink {
+	display: block;
+	margin-left: 18%;
+}
+
+#missionaries h3,
+.missionary h4 {
+	font-weight: 500;
+}
+
+#missionaries h3 {
+	text-align: center;
 }
