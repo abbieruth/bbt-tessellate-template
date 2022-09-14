@@ -2522,6 +2522,21 @@ input, select, textarea {
 	margin-top: 5%;
 }
 
+/* Staff page */
+
+.staff {
+	display: inline-block;
+	padding: 5%;
+}
+
+/* .staff h2, .staff h3 {
+	margin: 5%;
+} */
+
+.staff img {
+	margin-top: 5%;
+}
+
 /* Ministries page */
 
 .image{
@@ -2560,9 +2575,6 @@ input, select, textarea {
 .image:hover h3 {
 	visibility: hidden;
 }
-
-
-
 
 /* Missionaries page */
 
