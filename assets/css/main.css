@@ -2529,13 +2529,43 @@ input, select, textarea {
 	padding: 5%;
 }
 
+.staffcontainer {
+	width: 100%;
+	display: grid;
+	grid-template-columns: 45% 45%;
+	gap: 5%;
+	margin: 5% auto;
+	padding-left: 5%;
+}
+
+.staffcol1 {
+	grid-column: 1 / 2;
+}
+
+.staffcol2 {
+	grid-column: 2 / 2;
+}
+
+.staffcontainer h2,
+.staffcontainer h3 {
+	font-weight: 500;
+}
+
+.staffcontainer h2 {
+	font-size: 1.8rem;
+}
+
+.staffcontainer h3 {
+	font-size: 1.5rem;
+}
+
 /* .staff h2, .staff h3 {
 	margin: 5%;
 } */
 
-.staff img {
+/* .staff img {
 	margin-top: 5%;
-}
+} */
 
 /* Ministries page */
 
