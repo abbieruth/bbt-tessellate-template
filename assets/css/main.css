@@ -2512,6 +2512,21 @@ input, select, textarea {
 
 /* My changes */
 
+/* Navigation */
+
+nav {
+	background-color: white;
+}
+
+nav a {
+	color: rgb(136, 61, 21);
+	border-bottom: 1px solid white;
+}
+
+nav a:hover {
+	border-bottom: 1px solid rgb(136, 61, 21);
+}
+
 /* Main page */
 
 #pastor {
@@ -2520,6 +2535,44 @@ input, select, textarea {
 
 #pastor img {
 	margin-top: 5%;
+}
+
+/* Services */
+
+/* #times {
+	width: 100%;
+	margin: 0 auto;
+	padding: 0;
+	bottom: 50px !important;
+} */
+
+#times h1 {
+	margin: 5%;
+}
+
+#times h3 {
+	font-size: 2rem;
+	margin: 2%;
+}
+
+#times h4 {
+	font-weight: bold;
+	font-size: 1.5rem;
+}
+
+#times ul li {
+	list-style: none;
+}
+
+#time {
+	font-weight: normal;
+	font-size: 1.25rem;
+}
+
+/* Sermons list */
+
+.sermons {
+	list-style: none;
 }
 
 /* Staff page */
