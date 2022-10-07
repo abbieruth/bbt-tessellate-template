@@ -2515,16 +2515,16 @@ input, select, textarea {
 /* Navigation */
 
 nav {
-	background-color: white;
+	background-color: #f8f8f8;
 }
 
 nav a {
 	color: rgb(136, 61, 21);
-	border-bottom: 1px solid white;
+	border-bottom: 1px solid #f8f8f8;
 }
 
 nav a:hover {
-	border-bottom: 1px solid rgb(136, 61, 21);
+	border-bottom: 1px solid silver;
 }
 
 /* Main page */
@@ -2539,6 +2539,19 @@ nav a:hover {
 
 /* Services */
 
+/* Services */
+
+#header {
+	display: flex;
+	justify-content: center;
+	align-content: flex-start;
+	padding: 15%;
+}
+
+#header h1 {
+	font-size: 3rem;
+}
+
 /* #times {
 	width: 100%;
 	margin: 0 auto;
@@ -2546,17 +2559,13 @@ nav a:hover {
 	bottom: 50px !important;
 } */
 
-#times h1 {
+#times h2 {
+	font-size: 2rem;
 	margin: 5%;
 }
 
 #times h3 {
-	font-size: 2rem;
-	margin: 2%;
-}
-
-#times h4 {
-	font-weight: bold;
+	font-weight: 500;
 	font-size: 1.5rem;
 }
 
@@ -2565,11 +2574,20 @@ nav a:hover {
 }
 
 #time {
-	font-weight: normal;
+	font-weight: 300;
 	font-size: 1.25rem;
 }
 
 /* Sermons list */
+
+#archive {
+	text-align: center;
+}
+
+#archive h4 {
+	text-decoration: underline;
+	padding-top: 2%;
+}
 
 .sermons {
 	list-style: none;
