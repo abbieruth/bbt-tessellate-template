@@ -2543,14 +2543,15 @@ nav a:hover {
 
 /* Services */
 
-#header {
+#services {
 	display: flex;
 	justify-content: center;
 	align-content: flex-start;
-	padding: 15%;
+	padding: 0 15%;
+	margin: 0 auto;
 }
 
-#header h1 {
+#times h1 {
 	font-size: 3rem;
 }
 
